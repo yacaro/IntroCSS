@@ -1,0 +1,131 @@
+/*seletor universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*seletor de tag*/
+
+body{
+    background-color: rgb(241, 236, 187);
+    font-family:'Times New Roman', Times, serif;
+    color: #3e3d3d;
+}
+
+#cabecalho{
+    background-color: #a87430;
+    color:rgb(241, 235, 235);
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+}
+#titulo{
+    color:rgb(242, 202, 101);
+    font-size: 2.5em;
+}
+.menu-item{
+    display: inline-block;
+    margin: 10px;
+}
+.menu-item a{
+    color: #4d4242;
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(204, 157, 87);
+    text-align: center;
+}
+.menu-item a:hover{
+    color:rgb(236, 206, 161);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#destaque{
+    font-size: 20px;
+    text-align: center;
+    color:#4d4242;
+}
+.btn{
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(241, 236, 187);
+    border-color: rgb(121, 98, 65);
+    background-color: rgb(142, 117, 80);
+    border: none;
+    font-size: 1em;
+    margin: 25px;
+}
+.btn:hover{
+    color: rgb(241, 236, 187);
+    background-color: rgb(186, 152, 102);
+    cursor: pointer;
+}
+.p{
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+}
+.promocao{
+    border: solid rgb(204, 157, 87) 3px;
+    height: auto;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.produto{
+
+}
+.nome{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+
+}
+.preco{
+    color: rgb(78, 60, 34);
+    font-size: 20px;
+}
+.queijo{
+    width: 510px; height: 343px;
+}
+footer{
+    background-color: #a87430;
+    margin-top: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    display:flex; align-items: center;
+
+}
+#feedback{
+    text-align: center;
+    margin: 30px;
+}
+#for{
+    background-color: rgb(204, 157, 87);
+    width: 420px;
+    margin-left: 750px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: solid #a87430 3px;
+}
+#formu{
+    display: flex; 
+    flex-direction:column;
+    justify-content: space-between;
+}
+.F1{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+#T1{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 200px;
+}
