@@ -129,22 +129,30 @@ footer{
     border: none;
     height: 200px;
 }
-.CAR-tr{
-    font-size: 29px;
-    margin-left: 55px;
-    margin-bottom: -10px;
-    margin-top: 70px;
+#cardar{
     display: flex;
     flex-direction: row;
+    justify-content: center ;
 }
-
-#cardar{
+.CAR-tr{
+    font-size: 29px;
+    margin-left: -260px;
+    margin-bottom: -10px;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
 }
 .CAR-do{
     font-size: 29px;
     margin-left: 237px;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.CAR-be{
+    font-size: 29px;
+    margin-left: 400px;
     margin-bottom: -10px;
     margin-top: 70px;
     display: flex;
@@ -157,6 +165,11 @@ footer{
     border-right: solid rgb(121, 98, 65);
     margin-right: 25px;
 }
+#LisB{
+    font-size: 25px;
+    margin: 10px;
+   padding: 50px;
+}
 .Ingre{
     font-size: 15px;
     margin-left: 19px;
@@ -165,4 +178,5 @@ footer{
 #div{
     display: flex;
     flex-direction: row; 
+    justify-content: center;
 }
